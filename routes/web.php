@@ -30,4 +30,6 @@ Route::group(['prefix' => 'dashboard', 'middleware' => 'auth'], function() {
     Route::resource('events', EventsController::class);
 });
 
+Route::get('/loginpage', [PagesController::class, 'loginpage'])->name('loginpage');
+
 require __DIR__.'/auth.php';
