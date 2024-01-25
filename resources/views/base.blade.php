@@ -22,6 +22,7 @@
                     <a class="nav-item nav-link" href="{{ route('testroute2') }}">Testroute2</a>
                     <a class="nav-item nav-link" href="{{ route('events') }}">Events</a>
                 </div>
+                    <a class="nav-item btn btn-primary" href="{{ route('login') }}">Login</a>
             </div>
         </nav>
     </header>

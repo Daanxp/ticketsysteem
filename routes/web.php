@@ -20,7 +20,6 @@ Route::get('/', function () {
 });
 
 
-
 Route::get('/testroute', [PagesController::class, 'testroute'])->name('testroute');
 
 Route::get('/testroute2', [PagesController::class, 'testroute2'])->name('testroute2');
